@@ -24,10 +24,10 @@ while count < math.log(uppernumber - lowernumber + 1, 2):
         print("Congratulations You guessed it in ", count, " tries Hooray!!")
         break
     elif x > guess:
-        print("You guessed a small number!")
+        print("You have guessed a smaller number!")
     elif x < guess:
-        print("You guessed a high number!")
+        print("You have guessed a higher number!")
 
 if count >= math.log(uppernumber - lowernumber + 1, 2):
     print("\nThe number is %d" % x)
-    print("\tBetter luck next time!")
+    print("\tBetter luck next time :(")
